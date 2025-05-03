@@ -36,7 +36,7 @@
                     <tbody>
                     @foreach ($cdList as $my_data)
                     <tr>
-                        <td>{{ $my_data['id']}}</td>
+                        <td>{{ $my_data['id'] }}</td>
                         <td>{{ $my_data['name'] }}</td>
                         <td>{{ $my_data['desc'] }}</td>
                         <td>R${{ number_format($my_data['price'], 2, ",") }}</td>
